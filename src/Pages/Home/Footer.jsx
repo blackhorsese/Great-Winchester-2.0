@@ -5,33 +5,14 @@ const Footer = () => {
         <div className='mt-10'>
             <div className='max-w-screen-xl mx-auto justify-center md:py-10 md:px-10 pb-10 px-5'>
                 <h1 className='text-[#aaa] md:text-base text-sm justify-center pb-5'>
-                    Website last updated: November 08, 2023
+                    Website last updated: November 09, 2023
                 </h1>
                 <div className='md:grid md:grid-cols-4 md:gap-x-20 md:max-w-7xl mx-auto justify-center py-5 text-white'>
                     <div className="py-2 md:px-0">
                         <a href="/">
-                            <img src='./color-logo.png' className='md:w-64 w-52' alt='favicon.png'/>
+                            <img src='./color-logo.png' className='md:w-72 w-52' alt='favicon.png'/>
                         </a>
-                    </div>
-                    <div className='md:pt-8 pt-10 md:py-16'>
-                        <h1 className='text-white text-base justify-center font-semibold'>
-                            Contact Us
-                        </h1>
-                        <p className='text-sm text-[#C3CDD3] md:pt-4 pt-2'>
-                            info@greatwinchester.com
-                            zoaib@greatwinchester.com
-                            zaheer@greatwinchester.com
-                        </p>
-                    </div>
-                    <div className='md:pt-8 pt-10 md:py-16'>
-                        <h1 className='text-white text-base justify-center font-semibold'>
-                            Address
-                        </h1>
-                        <p className='text-sm text-[#C3CDD3] md:pt-4 pt-2'>
-                            33 Queen St, London EC4R 1AP
-                        </p>
-                    </div>
-                    <div className='md:pt-8 pt-10 md:py-16'>
+                        <div className='md:pt-8 pt-10 md:py-16'>
                         <h1 className='text-white text-base justify-center font-semibold'>
                             Community
                         </h1>
@@ -84,7 +65,77 @@ const Footer = () => {
                                 </svg>
                             </a>
                         </div>
-                        
+                    </div>
+                    </div>
+                    <div className='md:pt-8 pt-10 md:py-16'>
+                        <h1 className='text-white text-base justify-center font-semibold'>
+                            Contact Us
+                        </h1>
+                        <p className='text-sm text-[#C3CDD3] md:pt-4 pt-2'>
+                            info@greatwinchester.com
+                            zoaib@greatwinchester.com
+                            zaheer@greatwinchester.com
+                        </p>
+                    </div>
+                    <div className='md:pt-0 pt-10'>
+                        <h1 className='text-white text-base justify-center font-semibold'>
+                            About Us
+                        </h1>
+                        <div className='pt-4'>
+                            <div>
+                                <a 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    href="/digital-asset"
+                                >
+                                    Digital Asset
+                                </a>
+                            </div>
+                            <div>
+                                <a className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    href="/digital-art"
+                                >
+                                    Digital Art
+                                </a>
+                            </div>
+                            <div>
+                                <a 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    href="/cybersecurity"
+                                >   Cyber Security
+                                </a>
+                            </div>
+                            <div>
+                                <a 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    href="/IT-consultant"
+                                >   IT Consultant
+                                </a>
+                            </div>
+                            <div>
+                                <a 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    href="/software-development"
+                                >
+                                    Software Development
+                                </a>
+                            </div>
+                            <div>
+                                <a 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    href="/ev-network"
+                                >
+                                    Electric Vehicle Network
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='md:pt-8 pt-10 md:py-16'>
+                        <h1 className='text-white text-base justify-center font-semibold'>
+                            Address
+                        </h1>
+                        <p className='text-sm text-[#C3CDD3] md:pt-4 pt-2'>
+                            33 Queen St, London EC4R 1AP
+                        </p>
                     </div>
                 </div>
                 <div className='justify-center mx-auto md:text-center px-5'>
