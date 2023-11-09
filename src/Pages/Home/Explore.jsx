@@ -121,7 +121,7 @@
 
 import React from 'react';
 
-const Mission = () => {
+const Explore = () => {
     return (
         <div id='mission' className='py-2 pb-20 text-white justify-center mx-auto max-w-screen-xl md:px-10 px-5'>
             <div className='mx-auto justify-center'>
@@ -217,4 +217,4 @@ const Mission = () => {
     );
 }
 
-export default Mission;
+export default Explore;
