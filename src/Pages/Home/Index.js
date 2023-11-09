@@ -5,7 +5,7 @@ import Dashboard from './Dashboard'
 import Ceo from './Ceo'
 import Footer from './Footer'
 import Updates from './Updates'
-import Blog from './blog'
+import Explore from './Explore'
 import Wealth from './Wealth'
 import Careers from './Careers'
 import Office from '../Office'
@@ -17,7 +17,7 @@ export default function Index() {
         <div className='w-full justify-center mx-auto overflow-hidden'>
             <Dashboard/>
             <About/>
-            <Blog/>
+            <Explore/>
             <Wealth/>
             <Ceo/>
             <Careers/>
