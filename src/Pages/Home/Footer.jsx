@@ -67,17 +67,7 @@ const Footer = () => {
                         </div>
                     </div>
                     </div>
-                    <div className='md:pt-8 pt-10 md:py-16'>
-                        <h1 className='text-white text-base justify-center font-semibold'>
-                            Contact Us
-                        </h1>
-                        <p className='text-sm text-[#C3CDD3] md:pt-4 pt-2'>
-                            info@greatwinchester.com
-                            zoaib@greatwinchester.com
-                            zaheer@greatwinchester.com
-                        </p>
-                    </div>
-                    <div className='md:pt-0 pt-10'>
+                    <div className='pt-9'>
                         <h1 className='text-white text-base justify-center font-semibold'>
                             About Us
                         </h1>
@@ -128,6 +118,16 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
+                    </div>
+                    <div className='md:pt-8 pt-10 md:py-16'>
+                        <h1 className='text-white text-base justify-center font-semibold'>
+                            Contact Us
+                        </h1>
+                        <p className='text-sm text-[#C3CDD3] md:pt-4 pt-2'>
+                            info@greatwinchester.com
+                            zoaib@greatwinchester.com
+                            zaheer@greatwinchester.com
+                        </p>
                     </div>
                     <div className='md:pt-8 pt-10 md:py-16'>
                         <h1 className='text-white text-base justify-center font-semibold'>
