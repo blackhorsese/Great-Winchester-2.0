@@ -3,7 +3,7 @@ import React from 'react'
 export default function Art() {
   return (
     <>
-        <div className='duration-500 bg-black'>
+        <div className='duration-500'>
             <div className='bg-local md:h-24 px-5 pt-20 md:pt-0 md:px-0'>
                 <img className='z-0 duration-500 w-full object-cover md:h-[44rem]' src='./evcar1.png' alt='image'/>
             </div>
