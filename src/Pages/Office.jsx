@@ -17,7 +17,7 @@ const Office = () => {
                 <div className='lg:grid lg:grid-cols-3 mx-auto justify-center md:gap-5 md:pt-10'>
                     <div className='py-6 px-6 bg-[#1F1F1F] hover:bg-[#2b2b2b] md:mt-0 mt-5'
                     >
-                      <img className={`transition-transform transform hover:scale-105 duration-300 cursor-pointer`} src='./Icons/london.jpg' alt='logo'/>
+                      <img className={`transition-transform transform hover:scale-105 duration-300 cursor-pointer`} src='./Icons/new-york.jpg' alt='logo'/>
                         <div 
                             className='duration-300 text-center mx-auto'
                         >
@@ -32,7 +32,7 @@ const Office = () => {
                     </div>
                     <div className='py-6 px-6 bg-[#1F1F1F] hover:bg-[#2b2b2b] md:mt-0 mt-5'
                     >
-                      <img className={`transition-transform transform hover:scale-105 duration-300 cursor-pointer`} src='./Icons/new-york.jpg' alt='logo'/>
+                      <img className={`transition-transform transform hover:scale-105 duration-300 cursor-pointer`} src='./Icons/london.jpg' alt='logo'/>
                         <div 
                             className='duration-300 text-center mx-auto'
                         >
