@@ -44,7 +44,7 @@ function Logo({ isScrolled }) {
                   <img width={180} className='block md:hidden lg:hidden items-center duration-500' src='./color-logo.png' alt='favicon.png'/>
                 </a>
               </div>
-              <div className="hidden md:block w-full duration-500 scroll-smooth">
+              <div className="hidden lg:block w-full duration-500 scroll-smooth">
               <div className="mx-auto items-center flex flex-row space-x-2 justify-between duration-500">
                   <div className='flex pl-8 items-center justify-center mx-auto'>
                     <a
@@ -108,7 +108,7 @@ function Logo({ isScrolled }) {
                 </div>
               </div>
             </div>
-            <div className="mr-2 flex md:hidden">
+            <div className="mr-2 flex lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -164,7 +164,7 @@ function Logo({ isScrolled }) {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden w-full pb-10 mt-3 bg-[#121212] text-white" id="mobile-menu">
+            <div className="lg:hidden w-full pb-10 mt-3 bg-[#121212] text-white" id="mobile-menu">
               <div ref={ref} className="mx-auto z-10 px-5 flex flex-col">
               <a
                   href="/"
@@ -287,7 +287,7 @@ function Logo({ isScrolled }) {
                   <img width={185} className='items-center md:hidden block lg:hidden duration-500' src='./white-logo.png' alt='favicon.png'/>
                 </a>
               </div>
-              <div className="hidden md:block w-full duration-500 scroll-smooth">
+              <div className="hidden lg:block w-full duration-500 scroll-smooth">
                 <div className="mx-auto items-center flex flex-row space-x-2 justify-between duration-500">
                   <div className='flex pl-8 items-center justify-center mx-auto'>
                     <a
@@ -351,7 +351,7 @@ function Logo({ isScrolled }) {
                 </div>
               </div>
             </div>
-            <div className="mr-2 flex md:hidden">
+            <div className="mr-2 flex lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -407,7 +407,7 @@ function Logo({ isScrolled }) {
           leaveTo="opacity-0 scale-95"
         >
           {(ref) => (
-            <div className="md:hidden w-full pb-10 mt-3 bg-[#121212] text-white" id="mobile-menu">
+            <div className="lg:hidden w-full pb-10 mt-3 bg-[#121212] text-white" id="mobile-menu">
               <div ref={ref} className="mx-auto z-10 px-5 flex flex-col">
               <a
                   href="/"
