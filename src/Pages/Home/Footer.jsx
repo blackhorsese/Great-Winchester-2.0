@@ -10,7 +10,7 @@ const Footer = () => {
                 <div className='md:grid md:grid-cols-4 md:gap-x-20 md:max-w-7xl mx-auto justify-center py-5 text-white'>
                     <div className="py-2 md:px-0">
                         <a href="/">
-                            <img src='./color-logo.png' className='md:w-72 w-52' alt='favicon.png'/>
+                            <img src='./color-logo.png' className='md:w-72 w-44' alt='favicon.png'/>
                         </a>
                         <div className='md:pt-8 pt-8 md:py-16'>
                         <h1 className='text-white text-base justify-center font-semibold'>
