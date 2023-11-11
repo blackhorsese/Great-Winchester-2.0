@@ -34,7 +34,7 @@ function Logo({ isScrolled }) {
   return (
     <>
       {isScrolled ? (
-        <header className="fixed z-10 md:px-10 px-3 w-full duration-500 mx-auto items-center bg-[#121212] overflow-x-hidden shadow-md py-2">
+        <header className="fixed z-10 md:px-10 px-3 w-full duration-500 mx-auto items-center bg-[#121212] overflow-x-hidden shadow-md md:py-2">
         <div className="mx-auto items-center overflow-x-hidden duration-500">
           <div className="flex items-center">
             <div className="flex items-center max-w-screen-2xl justify-between mx-auto w-full">
