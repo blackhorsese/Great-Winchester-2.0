@@ -8,7 +8,7 @@ export default function Dashboard() {
                 <img className='z-0 duration-500 w-full object-cover md:min-h-screen h-[29rem]' src='./17.jpg' alt='images'/>
             </div>
             <div className='md:px-16 mx-auto justify-center overflow-hidden px-5 md:text-center'>
-                <div className='text-white md:py-20 md:mt-0 md:pb-0 pb-32'>
+                <div className='text-white md:py-20 md:mt-0 md:pb-0 pb-24'>
                     <div className='md:text-center mx-auto'>
                         <span className='first md:text-6xl text-3xl font-light tracking-wider duration-500'>
                             Build with
