@@ -40,7 +40,8 @@ function Logo({ isScrolled }) {
             <div className="flex items-center max-w-screen-2xl justify-between mx-auto w-full">
               <div className="flex-shrink-0 py-2 items-center duration-500">
                 <a href="/">
-                  <img width={210} className='items-center duration-500' src='./color-logo.png' alt='favicon.png'/>
+                  <img width={210} className='hidden md:block lg:block items-center duration-500' src='./color-logo.png' alt='favicon.png'/>
+                  <img width={180} className='block md:hidden lg:hidden items-center duration-500' src='./color-logo.png' alt='favicon.png'/>
                 </a>
               </div>
               <div className="hidden md:block w-full duration-500 scroll-smooth">
@@ -276,14 +277,14 @@ function Logo({ isScrolled }) {
         </Transition>
       </header>
       ) : (
-        <header className="fixed z-10 lg:px-10 md:px-10 px-3 w-full duration-500 mx-auto items-center bg-[#121212] md:bg-opacity-0 overflow-x-hidden py-3 md:py-4">
+        <header className="fixed z-10 lg:px-10 md:px-10 px-3 w-full duration-500 mx-auto items-center overflow-x-hidden py-3 md:py-4">
         <div className="mx-auto items-center overflow-x-hidden max-w-screen-2xl duration-500">
           <div className="flex items-center">
             <div className="flex items-center w-full">
               <div className="flex-shrink-0 md:py-2 items-center duration-500">
                 <a href="/">
                   <img width={220} className='items-center hidden md:block lg:block duration-500' src='./white-logo.png' alt='favicon.png'/>
-                  <img width={200} className='items-center md:hidden block lg:hidden duration-500' src='./color-logo.png' alt='favicon.png'/>
+                  <img width={185} className='items-center md:hidden block lg:hidden duration-500' src='./white-logo.png' alt='favicon.png'/>
                 </a>
               </div>
               <div className="hidden md:block w-full duration-500 scroll-smooth">
