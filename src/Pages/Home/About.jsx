@@ -3,8 +3,8 @@ import React from 'react'
 export default function About() {
   return (
     <>
-    <section id='about' className='mx-auto items-center justify-center overflow-hidden pt-5 md:pt-10 scroll-smooth duration-500 md:mt-32 text-[#e0e0e0]'>
-        <div className='mx-auto justify-center pt-10 md:pb-20 max-w-screen-xl md:px-10 px-5'>
+    <section id='about' className='mx-auto items-center justify-center overflow-hidden md:pt-10 scroll-smooth duration-500 md:mt-32 text-[#e0e0e0]'>
+        <div className='mx-auto justify-center md:pt-10 md:pb-20 max-w-screen-xl md:px-10 px-5'>
             <div className='justify-center mx-auto items-center'>
                 <p className='uppercase text-xs font-semibold text-[#d8bb6c]'>
                     WHAT WE Build
