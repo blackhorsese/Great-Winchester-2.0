@@ -3,9 +3,9 @@ import React from 'react'
 export default function Dashboard() {
   return (
     <>
-        <div className='duration-500 min-h-screen'>
+        <div className='duration-500 md:min-h-screen'>
             <div className='bg-local md:h-44 h-32'>
-                <img className='z-0 duration-500 w-full object-cover min-h-screen' src='./17.jpg' alt='images'/>
+                <img className='z-0 duration-500 w-full object-cover md:min-h-screen h-[29rem]' src='./17.jpg' alt='images'/>
             </div>
             <div className='md:px-16 mx-auto justify-center overflow-hidden px-5 md:text-center'>
                 <div className='text-white md:py-20 md:mt-0 md:pb-0 pb-32'>
@@ -23,7 +23,7 @@ export default function Dashboard() {
                         </p>
                         <div className='md:block lg:block hidden five border-[#fff] border-l-2 mx-auto items-center relative md:h-40 h-24 md:my-12 my-5 w-0 justify-center text-center flex rounded-sm'/>
                         <a 
-                            href="#about" className="fourth mt-20 hover:px-4 items-center text-[#fff] md:text-base text-xs font-semibold scroll-smooth duration-500 hover:border-[#d8bb6c] hover:text-[#d8bb6c] border-transparent border md:mx-auto relative h-10 tracking-wide uppercase md:px-4 w-full max-w-xs md:justify-center md:text-center flex rounded-sm">
+                            href="#about" className="fourth md:mt-20 mt-10 hover:px-4 items-center text-[#fff] md:text-base text-xs font-semibold scroll-smooth duration-500 hover:border-[#d8bb6c] hover:text-[#d8bb6c] border-transparent border md:mx-auto relative h-10 tracking-wide uppercase md:px-4 w-full max-w-xs md:justify-center md:text-center flex rounded-sm">
                             Learn More
                         </a>
                     </div>
@@ -32,4 +32,3 @@ export default function Dashboard() {
         </div>
     </>
   )
-}
