@@ -5,7 +5,7 @@ export default function Dashboard() {
     <>
         <div className='duration-500 md:min-h-screen'>
             <div className='bg-local md:h-44 h-32'>
-                <img className='z-0 duration-500 w-full object-cover md:min-h-screen h-[29rem]' src='./17.jpg' alt='images'/>
+                <img className='z-0 duration-500 w-full object-cover md:min-h-screen h-[30rem]' src='./17.jpg' alt='images'/>
             </div>
             <div className='md:px-16 mx-auto justify-center overflow-hidden px-5 md:text-center'>
                 <div className='text-white md:py-20 md:mt-0 md:pb-0 pb-24'>
