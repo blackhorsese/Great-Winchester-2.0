@@ -29,38 +29,16 @@ export default function About() {
                                 <br/>
                                     By partnering with global industry pioneers, we integrate cutting-edge technology that guarantees swift, durable, and reliable charging experiences. 
                                     Our stations are built to last, ensuring consistent performance and minimal downtime.
-                                <br/> 
                                 <br/>
-                                    Our commitment transcends mere business objectives; it's about pioneering a sustainable, eco-friendly future. With ultra-fast charging capabilities, strategic placements, 
-                                    and an unwavering focus on durability and reliability, Great Winchester is poised to redefine the EV charging landscape.
                                 <br/>
+                                Our commitment transcends mere business objectives; it's about pioneering a sustainable, eco-friendly future. With ultra-fast charging capabilities, strategic placements, 
+                                and an unwavering focus on durability and reliability, Great Winchester is poised to redefine the EV charging landscape. 
                             </p>
                         </div>
                     </div>
                 </div>
                 <div className='hidden md:block lg:block md:py-0 py-10 mt-40'>
                     <img className='mx-auto' src='./39.jpeg' alt='logo'/>
-                </div>
-            </div>
-            <div className='md:flex md:grid-cols-2 mx-auto md:justify-between md:gap-x-20 md:max-w-screen-xl'>
-                <div className='md:py-0 py-10 md:mt-28 px-5 md:px-0'>
-                    <img className='mx-auto' src='./40.jpeg' alt='logo'/>
-                </div>
-                <div className='mx-auto justify-center md:pt-20 md:pb-10 md:px-10 px-5'>
-                    <div className='mx-auto md:pt-8'>
-                        <div className='max-w-4xl justify-center mx-auto tracking-wide'>
-                            <p className='md:pt-5 md:text-lg text-sm'>
-                                Great Winchester is leading the charge in addressing the UK's EV infrastructure challenges with its innovative EV Charging Infrastructure venture. Acknowledging the existing infrastructure limitations, especially in rural areas, we are strategically deploying ultra-fast charging stations in both urban and rural settings.
-                                <br/> 
-                                <br/>
-                                    Our stations are equipped with the latest technology, ensuring rapid charging speeds, reducing wait times, and enhancing user convenience. We prioritize interoperability, offering universal connectors and a unified payment system for a hassle-free charging experience across the nation.
-                                <br/> 
-                                <br/>
-                                    By collaborating with energy experts, we are also working towards optimizing the electricity grid to handle increased EV demands without causing strain. Furthermore, our transparent and competitive pricing model ensures that EV charging remains affordable and accessible to all. At Great Winchester, our vision goes beyond business; we are committed to creating a sustainable, efficient, and user-friendly EV charging ecosystem for the UK.
-                                <br/>
-                            </p>
-                        </div>
-                    </div>
                 </div>
             </div>
 
