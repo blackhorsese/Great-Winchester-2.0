@@ -6,6 +6,7 @@ import Cyber from './Pages/Cyber Security/index'
 import Software from './Pages/Software Development/Index'
 import Consultant from './Pages/IT Consultant/Index'
 import EV from './Pages/EV Charging/Index'
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         <Route path="/software-development" element={ <Software/> } />
         <Route path="/IT-consultant" element={ <Consultant/> } />
         <Route path="/ev-network" element={ <EV/> } />
+        <Route path="/contact-us" element={ <Contact/> } />
+
       </Routes>
   )
 }
