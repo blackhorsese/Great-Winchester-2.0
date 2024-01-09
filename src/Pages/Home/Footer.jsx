@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='mt-10'>
             <div className='max-w-screen-xl mx-auto justify-center md:py-10 md:px-10 pb-10 px-5'>
                 <h1 className='text-[#aaa] md:text-base text-sm justify-center pb-5'>
-                    Website last updated: November 12, 2023
+                    Website last updated: December 10, 2024
                 </h1>
                 <div className='md:grid md:grid-cols-4 md:gap-x-20 md:max-w-7xl mx-auto justify-center py-5 text-white'>
                     <div className="py-2 md:px-0">
@@ -141,7 +141,7 @@ const Footer = () => {
                 <div className='justify-center mx-auto md:text-center md:px-5 md:pb-5'>
                     <div className='border-b border-[#d8bb6c]'/>
                         <p className='text-xs text-[#C3CDD3] pt-5'>
-                            Great Winchester © 2023. All right reserved.
+                            Great Winchester © 2024. All right reserved.
                         </p>
                         <p className='text-xs text-[#C3CDD3] pt-3'>
                             All trademarks, service marks, trade names, product names, logos and trade dress appearing on our website are the property of their respective owners.
