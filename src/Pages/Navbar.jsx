@@ -101,7 +101,7 @@ function Logo({ isScrolled }) {
                   </div>
                   <div className='flex'>
                     <a 
-                      href="/select" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] items-center relative h-8 text-sm duration-200 px-8 flex rounded-sm">
+                      href="/contact-us" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] items-center relative h-8 text-sm duration-200 px-8 flex rounded-sm">
                       Contact Us
                     </a>
                   </div>
@@ -267,7 +267,7 @@ function Logo({ isScrolled }) {
 
                 <div className=''>
                 <a 
-                  href="/select" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] mx-auto items-center relative h-10 mt-8 tracking-wider duration-200 px-4 w-full justify-center text-center flex rounded-sm">
+                  href="/contact-us" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] mx-auto items-center relative h-10 mt-8 tracking-wider duration-200 px-4 w-full justify-center text-center flex rounded-sm">
                   Contact Us
                  </a>
                 </div>
@@ -344,7 +344,7 @@ function Logo({ isScrolled }) {
                   </div>
                   <div className='flex'>
                     <a 
-                      href="/select" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] items-center relative h-8 text-sm duration-200 px-8 flex rounded-sm">
+                      href="/contact-us" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] items-center relative h-8 text-sm duration-200 px-8 flex rounded-sm">
                       Contact Us
                     </a>
                   </div>
@@ -510,7 +510,7 @@ function Logo({ isScrolled }) {
 
                 <div className=''>
                 <a 
-                  href="/select" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] mx-auto items-center relative h-10 mt-8 tracking-wider duration-200 px-4 w-full justify-center text-center flex rounded-sm">
+                  href="/contact-us" className="text-[#d8bb6c] hover:bg-[#d8bb6c] hover:text-black border border-[#d8bb6c] mx-auto items-center relative h-10 mt-8 tracking-wider duration-200 px-4 w-full justify-center text-center flex rounded-sm">
                   Contact Us
                  </a>
                 </div>
