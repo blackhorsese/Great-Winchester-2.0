@@ -22,7 +22,7 @@ export default function About() {
                         Great Winchester Investments is a leading business that gives solutions in space of cyber security and particularly in the fintech startup. 
                         Our mission is to create long-term value for our family & friends. Who believed in us and gives us the support which we need throughout our journey. 
                         We invest across the different assets classes from our earning through services we provide. 
-                        Great Winchester will keep working around the clock to provide the best service to our clients and family & friends.
+                        Great Winchester will keep working around the clock to provide the best service to our family & friends.
                     </p>
                 </div>
                 <div className='md:max-w-screen-sm pt-10 text-center'>
