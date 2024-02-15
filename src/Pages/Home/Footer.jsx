@@ -141,7 +141,7 @@ const Footer = () => {
                 <div className='justify-center mx-auto md:text-center md:px-5 md:pb-5'>
                     <div className='border-b border-[#d8bb6c]'/>
                         <p className='text-xs text-[#C3CDD3] pt-5'>
-                            Great Winchester © 2024. All right reserved.
+                            Great Winchester &copy; 2024. All right reserved.
                         </p>
                         <p className='text-xs text-[#C3CDD3] pt-3'>
                             All trademarks, service marks, trade names, product names, logos and trade dress appearing on our website are the property of their respective owners.
