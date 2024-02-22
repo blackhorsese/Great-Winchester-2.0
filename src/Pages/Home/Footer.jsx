@@ -74,14 +74,14 @@ const Footer = () => {
                         <div className='pt-4'>
                             <div>
                                 <a 
-                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
                                     href="#home"
                                 >
                                     Home
                                 </a>
                             </div>
                             <div>
-                                <a className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                <a className='text-sm text-[#C3CDD3] md:pt-4 pt-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
                                     href="#about"
                                 >
                                     What We Build
@@ -89,14 +89,14 @@ const Footer = () => {
                             </div>
                             <div>
                                 <a 
-                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
                                     href="#careers"
                                 >   Careers
                                 </a>
                             </div>
                             <div>
                                 <a 
-                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 pl-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
+                                    className='text-sm text-[#C3CDD3] md:pt-4 pt-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
                                     href="#office"
                                 >   Our Office
                                 </a>
