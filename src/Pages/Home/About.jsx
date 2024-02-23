@@ -6,7 +6,7 @@ export default function About() {
     <section id='about' className='mx-auto items-center justify-center overflow-hidden scroll-smooth duration-500 text-[#e0e0e0] lg:py-20 md:py-16'>
         <div className='mx-auto justify-center max-w-screen-xl md:px-10 px-5 md:pt-10 lg:pt-0'>
             <div className='mx-auto text-[#fff] lg:grid-cols-2 lg:flex gap-x-20 items-center'>
-                <div className='block lg:hidden mt-5'>
+                <div className='fourth block lg:hidden mt-5'>
                     <img src='./build.jpg' alt='image'/>
                 </div>
                 <div className='lg:max-w-lg lg:pt-5 pt-10 pb-8'>
