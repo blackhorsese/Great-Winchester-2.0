@@ -43,7 +43,7 @@ const Login = () => {
   return (
     <>
     <div id='Lplogin' className='min-h-screen overflow-hidden justify-center mx-auto'>
-      <div className="flex-shrink-0 py-2 items-center duration-500 mx-auto md:px-20 px-5 bg-black">
+      <div className="flex-shrink-0 py-2 items-center duration-500 mx-auto md:px-20 px-5 bg-[#121212]">
         <a>
           <img width={190} className='items-center duration-500' src='./white-logo.png' alt='favicon.png'/>
         </a>
@@ -57,7 +57,7 @@ const Login = () => {
             {currentStep === 1 && (
               <div className=''>
                 <div className=''>
-                  <input className='w-full hover:border-b-2 border-b hover:border-black border-[#979797] py-2' placeholder='Username' required type="text" 
+                  <input className='w-full hover:border-b-2 border-b hover:border-[#121212] border-[#979797] py-2' placeholder='Username' required type="text" 
                   value={username} onChange={(e) => setUsername(e.target.value)} />
                 </div>
                 <div className='flex gap-2 mt-3'>
@@ -68,21 +68,21 @@ const Login = () => {
                   {error && <div className='text-red-700 font-semibold'>{error}</div>}
                 </div>
                 <div className='text-end mx-auto justify-end pt-16'>
-                  <button className='bg-[#000] px-10 py-2 text-white tracking-wider hover:bg-opacity-80' onClick={handleNext}>Next</button>
+                  <button className='bg-[#121212] px-10 py-2 text-white tracking-wider hover:bg-opacity-80' onClick={handleNext}>Next</button>
                 </div>
               </div>
             )}
             {currentStep === 2 && (
               <div>
                 <div>
-                  <input className='w-full hover:border-b-2 border-b hover:border-black border-[#979797] py-2' placeholder='Password' type="password" required value={password} onChange={(e) => setPassword(e.target.value)} />
+                  <input className='w-full hover:border-b-2 border-b hover:border-[#121212] border-[#979797] py-2' placeholder='Password' type="password" required value={password} onChange={(e) => setPassword(e.target.value)} />
                 </div>
                 <div className='mt-10'>
                   {error && <div className='text-red-700 font-semibold'>{error}</div>}
                 </div>
                 <div className='text-end mx-auto justify-end pt-16 flex gap-5'>
-                  <button className='border px-10 py-2 border-[#D8BB6C] hover:border-[#000]' onClick={handleBack}>Back</button>
-                  <button className='bg-[#000] px-10 py-2 text-white tracking-wider hover:bg-opacity-80' onClick={handleLogin} disabled={!password.trim() || loading}>{loading ? 'Login...' : 'Login'}</button>
+                  <button className='border px-10 py-2 border-[#D8BB6C] hover:border-[#121212]' onClick={handleBack}>Back</button>
+                  <button className='bg-[#121212] px-10 py-2 text-white tracking-wider hover:bg-opacity-80' onClick={handleLogin} disabled={!password.trim() || loading}>{loading ? 'Login...' : 'Login'}</button>
                 </div>
               </div>
             )}
