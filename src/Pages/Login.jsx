@@ -51,7 +51,7 @@ const Login = () => {
       <div className='max-w-2xl mx-auto px-5 md:pt-20 pt-10'>
         <div className='bg-white md:px-10 md:py-16 px-5'>
           <h1 className='text-start md:text-4xl text-2xl md:pt-0 pt-10 font-semibold'>
-            Welcome to the Great Winchester Investor Portal
+            Welcome to the Great Winchester Portal
           </h1>
           <div className='md:py-20 py-10'> 
             {currentStep === 1 && (
