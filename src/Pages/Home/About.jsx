@@ -3,14 +3,14 @@ import React from 'react'
 export default function About() {
   return (
     <>
-    <section id='about' className='mx-auto items-center justify-center overflow-hidden scroll-smooth duration-500 text-[#e0e0e0] lg:py-20 md:py-16 py-10'>
+    <section id='about' className='mx-auto items-center justify-center overflow-hidden scroll-smooth duration-500 text-[#e0e0e0] lg:py-20 md:py-16'>
         <div className='mx-auto justify-center max-w-screen-xl md:px-10 px-5 md:pt-10 lg:pt-0'>
-            <div className='mx-auto pt-3 md:pt-10 text-[#fff] lg:grid-cols-2 lg:flex gap-x-20 items-center'>
-                <div className='block lg:hidden'>
+            <div className='mx-auto text-[#fff] lg:grid-cols-2 lg:flex gap-x-20 items-center'>
+                <div className='block lg:hidden mt-5'>
                     <img src='./build.jpg' alt='image'/>
                 </div>
-                <div className='max-w-lg'>
-                    <h1 className='md:text-5xl text-3xl mx-auto lg:pt-5 pt-10 text-[#d8bb6c]'>
+                <div className='lg:max-w-lg lg:pt-5 pt-10 pb-8'>
+                    <h1 className='md:text-5xl text-3xl mx-auto text-[#d8bb6c]'>
                         About Us
                     </h1>
                     <p className='pt-3 tracking-wide text-sm md:text-xl text-[#e0e0e0]'>
