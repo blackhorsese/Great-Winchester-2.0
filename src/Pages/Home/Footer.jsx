@@ -5,7 +5,7 @@ const Footer = () => {
         <div className='mt-10'>
             <div className='max-w-screen-xl mx-auto justify-center md:py-10 md:px-10 pb-10 px-5'>
                 <h1 className='text-[#aaa] md:text-base text-sm justify-center pb-5'>
-                    Website last updated: November 12, 2023
+                    Website last updated: February 23, 2024
                 </h1>
                 <div className='md:grid md:grid-cols-4 md:gap-x-20 md:max-w-7xl mx-auto justify-center py-5 text-white'>
                     <div className="py-2 md:px-0">
@@ -84,7 +84,7 @@ const Footer = () => {
                                 <a className='text-sm text-[#C3CDD3] md:pt-4 pt-2 hover:text-[#d8bb6c] hover:font-semibold duration-150' 
                                     href="#about"
                                 >
-                                    What We Build
+                                    About Us
                                 </a>
                             </div>
                             <div>
