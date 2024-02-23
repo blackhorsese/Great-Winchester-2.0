@@ -6,18 +6,12 @@ export default function About() {
     <section id='about' className='mx-auto items-center justify-center overflow-hidden md:pt-10 scroll-smooth duration-500 md:mt-20 text-[#e0e0e0]'>
         <div className='mx-auto justify-center md:pt-10 md:pb-28 max-w-screen-xl md:px-10 px-5'>
             <div className='justify-center mx-auto items-center'>
-                <p className='uppercase text-xs font-semibold text-[#d8bb6c]'>
-                    WHAT WE Build
-                </p>
                 <h1 className='md:text-5xl text-3xl mx-auto md:pt-5 pt-3 text-[#fff]'>
-                    Delivering for Investors
+                    About Us
                 </h1>
             </div>
             <div className='mx-auto pt-3 md:pt-10 text-[#fff]'>
                 <div className=''>
-                    <p className='md:text-2xl font-semibold text-[#999]'>
-                        Unmatched scale
-                    </p>
                     <p className='pt-3 tracking-wide text-sm md:text-xl text-[#e0e0e0]'>
                         Great Winchester Investments is a leading business that invests in  different assets classes mainly fintech and health tech companies. 
                         Along side with our investment we offer cyber security solutions to all our portfolio of companies. Our mission is to create long-term value for our family & friends. 
