@@ -12,10 +12,10 @@ export default function Ceo() {
                             "The paramount achievements of our organization are a testament to our most prized asset: our people. 
                             I frequently emphasize that in the realm of finance, patents hold no dominion. Rather, 
                             our prosperity is rooted in the exceptional talents of our global teams, intricately woven together by a shared, unwavering commitment to be peerless in our field, 
-                            serving the best interests of our valued investors"
+                            serving the best interests of our valued friends and family"
                         </h1>
                         <h1 className='pt-8 uppercase md:text-base text-sm text-[#D8BB6C]'>Zoaib Ali</h1>
-                        <p className='uppercase md:text-base text-sm text-[#D8BB6C]'>CEO & Managing Director</p>
+                        <p className='uppercase md:text-base text-sm text-[#D8BB6C]'>CEO & Founder</p>
                     </div>
                 </div>
             </div>
