@@ -19,17 +19,6 @@ export default function About() {
                         Great Winchester will keep working around the clock to provide the best advice to our family & friends.
                     </p>
                 </div>
-                {/* <div className='md:max-w-screen-sm pt-10 text-center'>
-                    <h1 className='md:text-6xl text-4xl font-sans font-semibold text-[#fff]'>
-                        $3.5M
-                    </h1>
-                    <p className='pt-2 font-semibold text-[#fff]'>
-                        Assets Under Management
-                    </p>
-                    <p className='font-light text-sm tracking-wide pt-3'>
-                        All figures as of June 30, 2022, unless <br/>otherwise indicated.
-                    </p>
-                </div> */}
             </div>
         </div>
     </section>
