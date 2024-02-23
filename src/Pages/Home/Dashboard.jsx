@@ -10,9 +10,6 @@ export default function Dashboard() {
             <div className='md:px-16 mx-auto justify-center overflow-hidden px-5 md:text-center'>
                 <div className='text-white md:py-20 md:mt-0 md:pb-0 pb-24'>
                     <div className='md:text-center mx-auto'>
-                        <span className='first md:text-6xl text-3xl font-light tracking-wider duration-500'>
-                            Build with
-                        </span>
                         <h1 className='second md:text-7xl font-semibold text-4xl tracking-wider duration-500 text-[#d8bb6c]'>
                             Great Winchester
                         </h1>
