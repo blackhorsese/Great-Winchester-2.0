@@ -31,11 +31,17 @@ function Navbar() {
 
 function Logo({ isScrolled }) {
   const [isOpen, setIsOpen] = useState(false)
+
+  const handleScrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
   return (
     <>
+    
       {isScrolled ? (
         <header className="fixed z-10 md:px-10 px-3 w-full duration-500 mx-auto items-center bg-[#121212] overflow-x-hidden shadow-md md:py-2 scroll-smooth">
-        <div className="mx-auto items-center overflow-x-hidden duration-500">
+        <div onClick={handleScrollToTop} className="mx-auto items-center overflow-x-hidden duration-500">
           <div className="flex items-center">
             <div className="flex items-center max-w-screen-2xl justify-between mx-auto w-full">
               <div className="flex-shrink-0 py-2 items-center duration-500">
