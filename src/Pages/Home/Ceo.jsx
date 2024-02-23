@@ -3,7 +3,7 @@ import React from 'react'
 export default function Ceo() {
   return (
     <>
-    <div className='justify-center items-center overflow-hidden md:py-20 py-10 mt-12 bg-[#1F1F1F]'>
+    <div className='justify-center items-center overflow-hidden md:py-20 py-10 bg-[#1F1F1F]'>
         <div className='max-w-screen-xl justify-center mx-auto'>
             <div className='max-w-screen-xl md:px-16 px-5 md:py-8 md:justify-center mx-auto text-white'>
                 <div className='mx-auto justify-between'>
