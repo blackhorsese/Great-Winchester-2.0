@@ -32,21 +32,6 @@ const Office = () => {
                     </div>
                     <div className='py-6 px-6 bg-[#1F1F1F] hover:bg-[#2b2b2b] md:mt-0 mt-5'
                     >
-                      <img className={`transition-transform transform hover:scale-105 duration-300 cursor-pointer`} src='./Icons/london.jpg' alt='logo'/>
-                        <div 
-                            className='duration-300 text-center mx-auto'
-                        >
-                            <h1 className='text-lg lg:text-xl font-semibold justify-center md:py-5 py-3 text-[#D8BB6C]'>
-                                USA New York
-                            </h1>
-                            <p
-                             className='md:text-base text-sm tracking-wide text-[#e0e0e0] duration-500'>
-                                99 Wall Street #5976 New York, NY 10005
-                            </p>
-                        </div>
-                    </div>
-                    <div className='py-6 px-6 bg-[#1F1F1F] hover:bg-[#2b2b2b] md:mt-0 mt-5'
-                    >
                       <img className={`transition-transform transform hover:scale-105 duration-300 cursor-pointer`} src='./Icons/4545.jpg' alt='logo'/>
                         <div 
                             className='duration-300 text-center mx-auto'
