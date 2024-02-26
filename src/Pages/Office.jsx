@@ -14,7 +14,7 @@ const Office = () => {
                         Great Winchester operates in multiple countries and our professional advice is only available for our friends and family.
                     </p>
                 </div>
-                <div className='lg:grid lg:grid-cols-3 mx-auto justify-center md:gap-5 md:pt-10'>
+                <div className='lg:grid lg:grid-cols-2 mx-auto justify-center md:gap-5 md:pt-10 max-w-screen-md'>
                     <div className='py-6 px-6 bg-[#1F1F1F] hover:bg-[#2b2b2b] md:mt-0 mt-5'
                     >
                       <img className={`transition-transform transform hover:scale-105 duration-300 cursor-pointer`} src='./Icons/new-york.jpg' alt='logo'/>
