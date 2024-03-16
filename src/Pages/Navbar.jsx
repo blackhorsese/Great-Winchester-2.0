@@ -40,7 +40,7 @@ function Logo({ isScrolled }) {
     <>
     
       {isScrolled ? (
-        <header className="fixed z-10 md:px-10 px-3 w-full duration-500 mx-auto items-center bg-[#121212] overflow-x-hidden shadow-md md:py-2 scroll-smooth">
+      <header className="fixed z-10 md:px-10 px-3 w-full duration-500 mx-auto items-center bg-[#121212] overflow-x-hidden shadow-md md:py-2 scroll-smooth border-opacity-40 border-b border-[#d8bb6c]">
         <div onClick={handleScrollToTop} className="mx-auto items-center overflow-x-hidden duration-500">
           <div className="flex items-center">
             <div className="flex items-center max-w-screen-2xl justify-between mx-auto w-full">
@@ -68,6 +68,22 @@ function Logo({ isScrolled }) {
                       items-center text-base md:hover:border-b border-[#d8bb6c] relative h-8 pt-0.5 duration-200 lg:px-4 md:px-2 px-4 flex justify-center flex-row text-[#fff] tracking-wide"
                     >
                       About Us
+                    </a>
+                    <a
+                      href="/electric-vehicle"
+                      className="
+                      
+                      items-center text-base md:hover:border-b border-[#d8bb6c] relative h-8 pt-0.5 duration-200 lg:px-4 md:px-2 px-4 flex justify-center flex-row text-[#fff] tracking-wide"
+                    >
+                       EV Charging
+                    </a>
+                    <a
+                      href="/cyber-secruity"
+                      className="
+                      
+                      items-center text-base md:hover:border-b border-[#d8bb6c] relative h-8 pt-0.5 duration-200 lg:px-4 md:px-2 px-4 flex justify-center flex-row text-[#fff] tracking-wide"
+                    >
+                       Cyber Secruity
                     </a>
                     <a
                       href="#careers"
@@ -164,6 +180,20 @@ function Logo({ isScrolled }) {
                   tracking-wider py-3 flex flex-row items-center justify-between duration-200 border-b border-[#fff] border-opacity-10 text-sm font-bold"
                 >
                   About Us
+                </a>
+                <a
+                  href="/electric-vehicle"
+                  className="
+                  tracking-wider py-3 flex flex-row items-center justify-between duration-200 border-b border-[#fff] border-opacity-10 text-sm font-bold"
+                >
+                   EV Charging
+                </a>
+                <a
+                  href="/cyber-secruity"
+                  className="
+                  tracking-wider py-3 flex flex-row items-center justify-between duration-200 border-b border-[#fff] border-opacity-10 text-sm font-bold"
+                >
+                   Cyber Secruity
                 </a>
                 <a
                   href="#careers"
@@ -247,8 +277,8 @@ function Logo({ isScrolled }) {
             <div className="flex items-center w-full">
               <div className="flex-shrink-0 md:py-2 items-center duration-500">
                 <a href="/">
-                  <img width={220} className='items-center hidden md:block lg:block duration-500' src='./white-logo.png' alt='favicon.png'/>
-                  <img width={185} className='items-center md:hidden block lg:hidden duration-500' src='./white-logo.png' alt='favicon.png'/>
+                  <img width={250} className='items-center hidden md:block lg:block duration-500' src='./white-logo.png' alt='favicon.png'/>
+                  <img width={220} className='items-center md:hidden block lg:hidden duration-500' src='./white-logo.png' alt='favicon.png'/>
                 </a>
               </div>
               <div className="hidden lg:block w-full duration-500 scroll-smooth">
@@ -269,6 +299,22 @@ function Logo({ isScrolled }) {
                       items-center text-base md:hover:border-b border-[#d8bb6c] relative h-8 pt-0.5 duration-200 lg:px-4 md:px-2 px-4 flex justify-center flex-row text-[#fff] tracking-wide"
                     >
                       About Us
+                    </a>
+                    <a
+                      href="/electric-vehicle"
+                      className="
+                      
+                      items-center text-base md:hover:border-b border-[#d8bb6c] relative h-8 pt-0.5 duration-200 lg:px-4 md:px-2 px-4 flex justify-center flex-row text-[#fff] tracking-wide"
+                    >
+                       EV Charging
+                    </a>
+                    <a
+                      href="/cyber-secruity"
+                      className="
+                      
+                      items-center text-base md:hover:border-b border-[#d8bb6c] relative h-8 pt-0.5 duration-200 lg:px-4 md:px-2 px-4 flex justify-center flex-row text-[#fff] tracking-wide"
+                    >
+                       Cyber Secruity
                     </a>
                     <a
                       href="#careers"
@@ -365,6 +411,20 @@ function Logo({ isScrolled }) {
                   tracking-wider py-3 flex flex-row items-center justify-between duration-200 border-b border-[#fff] border-opacity-10 text-sm font-bold"
                 >
                   About Us
+                </a>
+                <a
+                  href="/electric-vehicle"
+                  className="
+                  tracking-wider py-3 flex flex-row items-center justify-between duration-200 border-b border-[#fff] border-opacity-10 text-sm font-bold"
+                >
+                   EV Charging
+                </a>
+                <a
+                  href="/cyber-secruity"
+                  className="
+                  tracking-wider py-3 flex flex-row items-center justify-between duration-200 border-b border-[#fff] border-opacity-10 text-sm font-bold"
+                >
+                   Cyber Secruity
                 </a>
                 <a
                   href="#careers"
