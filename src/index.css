@@ -9,8 +9,24 @@ html {
   padding: 0;
   margin: 0;
   background-color: #121212;
+  box-sizing: border-box;
   
 }
+
+
+.herosection {
+  background-image: url(../public/17.jpg);
+  background-repeat: no-repeat;
+  object-fit: fill;
+  object-position: center;
+  background-size: cover;
+  background-position: center;
+  transition: background-size 1ms ease-in;
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh;
+}
+
 
 #Lplogin {
   background-image: url(../public/12.jpg);
@@ -82,6 +98,7 @@ html {
   display: inline-block;
   animation: scroll 0.1s linear infinite;
 }
+
 
 /* Add styles for page corners and animations if desired */
 
